@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+   padding: 0;
+   font-family: 'Lato', sans-serif;
+   font-weight: normal;
+   font-size: 13px;
+   background-color: #1d1154;
+   margin-top: 15px;
+   color: white;
+}
+
+.wrapper {
+  width: 850px;
+   height: 100%;
+   margin: 0 auto;
+   box-sizing: border-box;
+   text-align: center;
+}
+
+
+.input {
+   width: 98%;
+   height: 220px;
+   background-color: white;
+   color: black;
+   border-radius: 5px;
+   font-size: 15px;
+   padding: 5px;
+}
+
+
+.keyboard {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+   background: #39d6cfa6;
+   padding: 6px;
+   border: 1px solid #f9f9f8;
+   margin-bottom: 20px;
+   color: #ffffffd1;
+   border-radius: 8px;
+   padding-left: 20px;
+}
+
+.button {
+    display: flex;
+    width: 42px;
+   height: 42px;
+   margin: 4px;
+   justify-content: center;
+   align-items: center;
+   background: #171950f7;
+   list-style-type: none;
+   border-radius: 10px;
+   border: 1px solid #ef9d137a;
+   cursor: pointer;
+   font-size: 14px;
+   font-weight: bold;
+   box-shadow: 1px 1px 0px 3px rgba(0, 0, 0, 0.19);
+   transition: all 0.2s;
+   user-select: none;
+}
+
+.button:hover {
+   background: white;
+color:#171950f7; border: 1px solid black;   opacity: 0.9;
+}
+       
+.keyboard .active {
+   transition: all 0.2s;
+   background: yellow;
+   opacity: 1;
+   border-radius: 20px;
+}
+
+.backspace {
+  width: 100px;
+}
+
+.tab {
+   width: 45px;
+}
+
+.del {
+   width: 42px;
+}
+
+.left-btn {
+   width: 68px;
+}
+
+.right-btn {
+   width: 126px;
+}
+
+.space {
+   width: 335px;
+}
