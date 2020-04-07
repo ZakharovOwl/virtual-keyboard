@@ -1,9 +1,9 @@
 * {
     margin: 0;
    padding: 0;
-   font-family: 'Lato', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    font-weight: normal;
-   font-size: 13px;
+   font-size: 12px;
    background-color: #1d1154;
    margin-top: 15px;
    color: white;
@@ -54,7 +54,7 @@
    border-radius: 10px;
    border: 1px solid #ef9d137a;
    cursor: pointer;
-   font-size: 14px;
+   font-size: 12px;
    font-weight: bold;
    box-shadow: 1px 1px 0px 3px rgba(0, 0, 0, 0.19);
    transition: all 0.2s;
