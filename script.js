@@ -159,10 +159,14 @@ function key_down_click(code) {
   let end = textarea.selectionEnd;
 
   /*write*/
+  function deleteSelectedDiapason() {
+    textarea.value = textarea.value.slice(0, start) + textarea.value.slice(end);
+  }
 
   function writeLetters(letter, cursorPosition) {
     button.classList.add("active");
     if (start != end) {
+        deleteSelectedDiapason();
         textarea.value = textarea.value.slice(0, start) + letter + text.slice(end, textarea.value.length);
         textarea.selectionStart = textarea.selectionEnd = cursorPosition;
       } else {
